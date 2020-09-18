@@ -1,0 +1,291 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+.welcome{
+    /* display:flex;
+    flex-direction: column;
+    flex-flow: row; */
+    font-size: 175%;
+    border: solid 10px black;
+    background-color: rgb(133, 240, 248);
+    /* justify-content:center ; */
+    /* align-items: center; */
+    width: 500px;
+    height: 75px;
+    position:fixed;
+    top: 100px;
+    left: 500px;
+}
+h3{
+    font-size: 18px;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 3px black;
+    position:fixed;
+    top: 225px;
+    left:650px;
+}
+.who{
+    font-size: 45px;
+    font-style: italic;
+    color: black;
+    position: fixed;
+    top: 375px;
+    left: 100px;
+    
+
+}
+#maincontent {
+    
+    display:flex;
+    flex-direction:row-reverse
+    }
+#imagedent{
+    position: relative;
+    left: 800px;
+    top:400px;
+    /* border:solid 5px black; */
+    width: 1150px;
+    height:100px;
+}
+
+.textbox{
+
+    
+    width: 400px;
+    height: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    position: absolute;
+    left: 40px;
+    bottom: 150px;
+    font-size: 170%;
+    background-color: rgb(133, 240, 248);
+}
+
+
+body{
+    
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+}
+
+nav{
+    background: rgb(133, 240, 248);
+    height: 80px;
+    width: 100%;
+
+}
+label.logo{
+    color:white;
+    font-size:35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight:bold;
+
+}
+nav ul{
+    float:right;
+    margin-right:20px;
+
+}
+nav ul li{
+    display:inline-block;
+    line-height:80px;
+    margin:0 5px;
+}
+nav ul li a{
+    color:white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+a.active,a:hover{
+    background: #1b9bff;
+    transition:.5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color:white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor:pointer;
+
+}
+
+box {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    
+    width: 25%;
+}
+#check{
+    display:none;
+
+}
+@media (max-width:952px){
+    label.logo{
+        font-size:30px;
+        padding-left:50px;
+
+    }
+    nav ul li a{
+        font-size:16px:
+    }
+ @media (max-width:858px){
+     .checkbtn{
+         display:block;
+     }
+ 
+/* ul{
+    position:fixed;
+    width: 100%;
+    height:100vh;
+    background: #2c3e50;
+    left:0;
+    text-align: center; */
+    /* transition: all; */
+}
+
+nav ul li{
+    display: block;
+}
+
+nav ul li a{
+    font-size:20px;
+}
+a:hover,a.active{
+    background: none;
+    color: #0082e6;
+}
+.welcome{
+    display:flex;
+    flex-direction: column;
+    border: solid 10px black;
+    background-color: rgb(133, 240, 248);
+    justify-content:center ;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    position:relative;
+    top: 20px;
+    left: 300px;
+}
+
+
+
+
+/* #check:checked -ul{
+    left:0;
+
+}
+section{
+    background:()
+} */
+
+
+
+
+/* .welcome{
+    display:flex;
+    flex-direction: column;
+    border: solid 10px black;
+    background-color: rgb(133, 240, 248);
+    justify-content:center ;
+    align-items: center;
+    width: 500px;
+    height: 100px;
+    position:relative;
+    top: 20px;
+    left: 300px;
+} */
+
+.container{
+    display:flex;
+    min-height: 2vh;
+    flex-direction: row;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+box {
+    color: white;
+    font-size: 100px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+    padding: 15px;
+    
+    width: 25%;
+   
+}
+/* Colours for each box */
+    
+/* .box1 { background: rgb(133, 240, 248);
+    border: solid 1px black;
+}
+.box2 { background: rgb(133, 240, 248);
+    border: solid 1px black;
+}
+.box3 { background: rgb(133, 240, 248);
+    border: solid 1px black;
+} */
+
+
+
+
+
+h3{
+    font-size: 18px;
+    color:black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid 3px black;
+    position:fixed;
+    top: 225px;
+    left:475px;
+}
+
+/* #about{
+    border: solid 1px black;
+}
+#contact{
+    border: solid 1px black;
+}
+#events{
+    border: solid 1px black;
+} */
+/* #who{
+    font-size: larger;
+}
+#text{
+    border: solid 1px black;
+    background-color:rgb(133, 240, 248) ;
+    color: black; */
+/* } */
+
+
+    
+
+
+
+
+    /* display:flex;
+    background-color: rgb(133, 240, 248);
+    text-align: left;
+    border: solid 2px black;
+     */
+
+      } 
+      
+      
+    
+    
+}
